@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*font-family: "Ubuntu", sans-serif; */
+
+/*font-family: "Playfair Display", serif; */
+
+header{
+
+display: flex;
+
+justify-content: space-between;
+
+margin-left: 5%;
+
+width: 90%;
+
+margin-top: 20px;
+
+margin-bottom: 20px;
+}
+.logo{
+
+width: 20%;
+}
+nav{
+
+width: 50%;
+}
+header nav ul{
+
+display: flex;
+
+list-style: none;
+
+justify-content: end;
+}
+header nav ul li{
+
+margin-left: 50px;
+}
+header nav ul li a{
+    
+text-decoration: none;
+    
+color: #000000;
+    
+text-transform: uppercase;
+font-family: "Playfair Display", serif;
+}
+.banner_section{
+
+margin-left: 5%;
+
+width: 90%;
+}
+.banner_section img{
+    width: 100%;
+}
+.photodiary{
+
+width: 80%;
+
+margin: auto;
+
+margin-bottom: 70px;
+
+margin-top: 70px;
+}
+.photodiary h1{
+
+color: #626262;
+
+text-transform: capitalize;
+
+font-size: 30px;
+
+font-weight: 400;
+
+margin-bottom: 25px;
+font-family: "Playfair Display", serif;
+
+}
+.photodiary h5{
+
+color: #b4ad9e;
+
+font-weight: 400;
+
+font-size: 14px;
+
+text-transform: uppercase;
+
+margin-bottom: 25px;
+font-family: "Ubuntu", sans-serif;
+}
+.photodiary p{
+
+color: #626262;
+
+font-size: 16px;
+
+font-weight: 400;
+
+margin-bottom: 25px;
+
+line-height: 22px;
+
+font-family: "Playfair Display", serif;
+}
+.photodiary h6{
+    
+color: #b4ad9e;
+    
+text-transform: uppercase;
+    
+font-size: 14px;
+    
+font-weight: 400;
+font-family: "Ubuntu", sans-serif;
+}
+.feature_section{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.feature_item{
+    
+width: 48%;
+}
+.feature_item img{
+
+width: 100%;
+
+margin-bottom: 15px;
+}
+
+.feature_section h1{
+
+color: #626262;
+
+text-transform: capitalize;
+
+font-size: 30px;
+
+font-weight: 400;
+
+margin-bottom: 25px;
+
+font-family: "Playfair Display", serif;
+}
+.feature_section h5{
+
+color: #b4ad9e;
+
+font-weight: 400;
+
+font-size: 14px;
+
+text-transform: uppercase;
+
+margin-bottom: 25px;
+
+font-family: "Ubuntu", sans-serif;
+}
+.feature_section p{
+
+color: #626262;
+
+font-size: 16px;
+
+font-weight: 400;
+
+margin-bottom: 25px;
+
+line-height: 22px;
+
+font-family: "Playfair Display", serif;
+}
+.newsletter{
+
+background-color: #f0f0f0;
+
+padding: 65px;
+}
+.content{
+
+width: 28%;
+
+margin: auto;
+}
+.content h2{
+
+color: #626262;
+
+text-transform: capitalize;
+
+font-size: 30px;
+
+font-weight: 400;
+
+margin-bottom: 25px;
+
+font-family: "Playfair Display", serif;
+}
+.content input{
+    
+border: none;
+    
+border-bottom: 1px solid #000;
+    
+width: 100%;
+    
+background: transparent;
+}
